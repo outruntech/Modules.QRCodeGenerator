@@ -29,7 +29,7 @@
             Path to generated png file. When omitted, a temporary file name is used.
 
             .EXAMPLE
-            New-PSOneQRCodeVCard -FirstName Tom -LastName Sawyer -Company "Huckle Inc." -Email t.sawyer@huckle.com -Width 200 -Show -OutPath "$home\Desktop\qr.png"
+            New-PSOneQRCodeVCard -FirstName Tom -LastName Sawyer -Company "Huckle Inc." -Email t.sawyer@huckle.com -Url https://github.com/TobiasPSP/Modules.QRCodeGenerator -Tel +1 555 555 5555 -Width 200 -Show -OutPath "$home\Desktop\qr.png"
             Creates a QR code png graphics on your desktop, and opens it with the associated program
 
             .NOTES
