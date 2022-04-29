@@ -59,6 +59,16 @@
         [AllowEmptyString()]
         [string]
         $Email,
+
+        [Parameter(Mandatory)]
+        [AllowEmptyString()]
+        [string]
+        $Url,
+
+        [Parameter(Mandatory)]
+        [AllowEmptyString()]
+        [string]
+        $Tel,
         
         [ValidateRange(10,2000)]
         [int]
@@ -87,6 +97,8 @@ N:$LastName;$FirstName
 FN:$Name
 ORG:$Company
 EMAIL;TYPE=INTERNET:$Email
+URL:$Url
+TEL:$Tel
 END:VCARD
 "@
     
